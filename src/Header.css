@@ -5,3 +5,11 @@
     text-align: center;
     color: #333;
 }
+
+.done-button{
+    background-color: orange;
+}
+
+.toggle-button{
+    float:right;
+}

@@ -22,9 +22,9 @@ class Header extends Component {
     render() {
         return (
             <header className="component-header">
-                Weclome Miles <button onClick={() => this.toggleSearch()}> Toggle Search! </button>
+                Weclome Miles <button className="toggle-button" onClick={() => this.toggleSearch()}> Toggle Search </button>
 
-                {this.state.isDone && <button onClick={() => this.doneSearching()}> DONE </button>}
+                {this.state.isDone && <button className="done-button" onClick={() => this.doneSearching()}> Done </button>}
             </header>
         );
     }
